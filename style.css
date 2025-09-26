@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(247, 242, 242); */
+    background-color: #F4F4F4;
+
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+.header-input input{
+padding: 8px;
+border-radius: 15px;
+background-color: white;
+width: 300px;
+border: 1px solid rgb(94, 94, 94);
+}
+.button button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+#main{
+    display: flex;
+    padding-top: 50px;
+    background-color: #F4F4F4;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+.main-left{
+    width: 400px;
+}
+.main-left button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+.main-left p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.main-left h1{
+    font-size: 60px;
+}
+#main-bottom{
+    background-color: #F4F4F4;
+
+
+}
+#main-bottom h1{
+    font-size: 60px;
+    text-align: center;
+} 
+#schedule{
+    color: white;
+    background-color: black;
+    margin: 50px 60px auto;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+#schedule h1{
+    font-size: 35px;
+    line-height: 45px;
+}
+#schedule h2{
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+#schedule h3{
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+#schedule h4{
+    color: rgb(165, 165, 165);
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.subscribe{
+    display: flex;
+}
+.lastbtn{
+    margin-left: 12px;
+}
+
+.firstbtn button{
+background-color: gray;
+border: none;
+
+}
+
+.inputsubscribe{
+    width: 400px;
+    border: 2px solid gray;
+}
+#every-card-one{
+    margin: 30px;
+    padding-top: 30px;
+    /* padding: 30px; */
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 7px;
+    border-left: 4px solid black;
+
+}
+.every-card-one-top{
+    display: flex;
+}
+.every-card-one-left{
+    width: 15%;
+}
+.every-card-one-right{
+    display: flex;
+    border-top: 4px solid black;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+#everything-heading{
+    padding: 50px;
+    text-align: center;
+}
+#everything-heading h1{
+    font-size: 42px;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-right-left-header{
+    display: flex;
+    padding-bottom: 15px;
+}
+.card-right-left-header i{
+    font-size: 22px;
+    margin-left: 30px;
+}
+.card-right-left{
+    padding: 15px;
+    width: 30%;
+}
+.event{
+    color: black;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    background-color: rgb(214, 214, 214);
+}
+.event p{
+    padding-left: 14px;
+}
+.booking{
+    display: flex;
+    font-size: 18px;
+    color: rgb(94, 93, 93);
+    padding: 4px;
+    line-height: 26px;
+
+}
+.booking p{
+    padding-left: 14px;
+}
+.card-right-right{
+    padding: 30px;
+}
+.card-right-right-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.event-heading h1{
+    font-size: 29px;
+}
+.event-heading p{
+    font-size: 17px;
+}
+.event-button button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    font-size: 19px;
+    width: 100px;
+    margin-left: 200px;
+}
+.event-profile{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
+}
+.event-intro{
+    padding-left: 15px;
+}
+.event-intro p{
+    color: rgb(73, 73, 73);
+}
+.bottom{
+    display: flex;
+    gap: 30px;
+    padding-top: 10px;
+}
+.bottom-box{
+    background-color: rgb(209, 209, 209);
+    padding: 5px;
+    border-radius: 7px;
+}
+.event-box-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(143, 142, 142);
+    padding: 30px;
+}
+.event-box-one-left h4{
+    font-size: 19px;
+    line-height: 26px;
+}
+.event-box-one-left p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.event-box-one-right{
+    color: rgb(75, 75, 75);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px
+    ;
+}
+.event-box-one-right i{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+.pics{
+    display: inline-block;
+}
+.pics img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.img-0{
+    left: 60px;
+}
+.img-1{
+    position: relative;
+    left: 35px;
+}
+.img-2{
+    position: relative;
+    left: 18px;
+}
+.img-3{
+    position: relative;
+    left: 0px;
+}
+.every-card-one-bottom{
+    border-top: 3px dashed black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(31, 31, 31);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(31, 31, 31);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#every-card-two{
+    background-color: #cecdcd;
+}
+.every-card-two-left{
+    background-color: #E5E7EB;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.calender-button{
+    padding: 11px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    margin-left: 50px;
+}
+.calender-button button{
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+.two-center{
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+.two-center-intro h4{
+    display: inline-block;
+}
+.two-center-intro p{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(105, 105, 105);
+}
