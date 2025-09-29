@@ -5,8 +5,7 @@
 }
 body{
     font-family: sans-serif;
-    /* background-color: rgb(247, 242, 242); */
-    background-color: #F4F4F4;
+    background-color: #E5E7EB;
 
 }
 #header{
@@ -350,7 +349,7 @@ input:checked + .slider:before {
 }
 .every-card-two-left{
     background-color: #E5E7EB;
-    padding-left: 60px;
+    padding-left: 20px;
     padding-top: 50px;
 }
 
@@ -369,7 +368,7 @@ input:checked + .slider:before {
     background-color: transparent;
     border: 1px solid gray;
 }
-.two-center{
+.two-center-top{
     display: flex;
     gap: 15px;
     padding: 15px;
@@ -381,4 +380,51 @@ input:checked + .slider:before {
     font-size: 16px;
     line-height: 20px;
     color: rgb(105, 105, 105);
+}
+.two-center-bottom{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.two-center-bottom button{
+    border: none;
+    padding: 2px;
+}
+
+.every-card-two-left-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    /* overflow: hidden; */
+    gap: 25px
+    ;
+    padding-bottom: 50px;
+    border-bottom: 3px dashed black;
+}
+.two-left{
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 15px;
+}
+.two-center{
+    background-color: white;
+    padding: 14px;
+    /* overflow: hidden; */
+    border-radius: 22px;
+}
+.every-card-two-left-bottom-intro{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.every-card-two-left{
+    width: 60%;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid black;
+    border-left: 6px solid black;
 }
