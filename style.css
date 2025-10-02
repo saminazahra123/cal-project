@@ -490,18 +490,44 @@ input:checked + .slider:before {
     display: flex;
 }
 
-
+.card-three-left{
+    width: 32%;
+}
+.card-three-center{
+    width: 32%;
+}
+.card-three-right{
+    width: 33%;
+}
 #every-card-three{
     display: flex;
 }
-/* .card-three-left-top{
-    background-color: white;
-} */
 .card-three-left-intro{
     background-color: white;
+    height: 360px;
+    padding: 5px;
 
+}
+.card-three-left-boxes{
+    background-color: white;
+    padding: 10px 30px;
+    height: 360px;
 }
 .card-three-left-intro p{
     font-size: 18px;
     line-height: 25px;
+}
+.card-three-left-boxes h5{
+    font-size: 19px;
+    line-height: 27px;
+}
+.card-three-left-boxes p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.card-three-left-boxes button{
+    padding: 3px;
+    font-size: 15px;
+    width: 180px;
+    text-align: left;
 }
