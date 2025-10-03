@@ -501,21 +501,46 @@ input:checked + .slider:before {
 }
 #every-card-three{
     display: flex;
+    gap: 20px;
+    padding: 30px;
 }
 .card-three-left-intro{
     background-color: white;
-    height: 360px;
+    height: 380px;
     padding: 5px;
+    border-radius: 15px;
 
 }
 .card-three-left-boxes{
     background-color: white;
     padding: 10px 30px;
-    height: 360px;
+    border-radius: 15px;
+    height: 380px;
 }
 .card-three-left-intro p{
     font-size: 18px;
     line-height: 25px;
+}
+.card-three-left{
+    border: 2px solid black;
+    padding: 10px;
+    border-left: 6px solid black;
+    border-radius: 15px;
+}
+.card-three-center{
+    border: 2px solid black;
+    padding: 10px;
+    border-left: 6px solid black;
+    border-radius: 15px;
+}
+.card-three-right{
+    border: 2px solid black;
+    padding: 10px;
+    border-left: 6px solid black;
+    border-radius: 15px;
+}
+.card-three-left-boxes{
+    padding: 10px 40px;
 }
 .card-three-left-boxes h5{
     font-size: 19px;
@@ -530,4 +555,181 @@ input:checked + .slider:before {
     font-size: 15px;
     width: 180px;
     text-align: left;
+}
+.card-three-left-bottom{
+    padding: 20px;
+}
+.card-three-left-bottom p{
+    font-size: 18px;
+    line-height: 25px;
+}
+#list{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 10px 33px;
+    overflow: hidden;
+}
+#logos{
+    background-image: url(/images/img-9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.logos-intro{
+    margin: auto;
+}
+.logos-intro h1{
+    line-height: 39px;
+    font-weight: lighter;
+}
+.logos-intro p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.logos-intro button{
+    padding: 15px 20px;
+    margin-top: 15px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+}
+.schedule-adptes-heading h1{
+    font-size: 41px;
+    line-height: 49px;
+    font-weight: lighter;
+    text-align: center;
+}
+#schedule-adptes{
+    background-image: url(images/img10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.schedule-button{
+    display: flex;
+    align-items: center;
+    gap: 108px;
+    justify-content: center;
+}
+.btn-1{
+    padding: 12px 21px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.btn-2{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px dashed black;
+}
+.schedule-adptes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid black;
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    
+
+}
+.schedule-adptes-left{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+}
+.schedule-adptes-card{
+    width: 280px;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 14px;
+    background-color: white;
+}
+.schedule-adptes-card p{
+    font-size: 17px;
+    line-height: 23px;
+}
+.schedule-adptes-right{
+    background-color: white;
+    width: 100%;
+    padding: 85px 50px;
+    line-height: 20px;
+    border-left: 2px dashed black;
+    text-align: center;
+}
+.btn-3{
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    background-color: white;
+    /* border: none; */
+    border-radius: 15px;
+    position: relative;
+    left: 1090px;
+    bottom: 60px;
+}
+#cal-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+}
+#cal-heading i{
+    font-size: 38px;
+}
+.cards-heading{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.cards-heading img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.cards-one-intro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.cards-one-intro-img img{
+     width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.cards-one-about p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.time{
+    display: flex;
+    font-size: 14px;
+    color: gray;
+    gap: 30px;
+}
+.like{
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    padding-top: 10px;
+    /* gap: 35px; */
+}
+.like p{
+    padding-right: 40px;
+    padding-left: 10px;
 }
