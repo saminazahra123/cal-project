@@ -814,3 +814,108 @@ input:checked + .slider:before {
     position: relative;
     bottom: 380px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* ===========================
+   Responsive CSS
+   =========================== */
+
+/* 📱 Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero, .banner, .section, .card, .footer {
+    padding: 15px;
+  }
+
+  .hero img, 
+  .banner img, 
+  .card img, 
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid, .cards, .logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button, .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+/* 📱📲 Tablets (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grid, .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .logo-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button, .btn {
+    font-size: 1rem;
+    padding: 12px 18px;
+  }
+}
+
+/* 💻 Large Screens (Desktop 1025px+) 
+   -> Aapka current CSS already desktop ke liye hai,
+      isliye yaha alag kuch nahi likhna. */
