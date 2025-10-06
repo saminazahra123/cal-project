@@ -814,3 +814,410 @@ input:checked + .slider:before {
     position: relative;
     bottom: 380px;
 }
+
+/* ...existing code... */
+
+/* Responsive styles for tablet and mobile */
+@media (max-width: 1200px) {
+    #main, #every-card-one-top, #every-card-two, #every-card-three, #cards, .schedule-adptes {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 20px !important;
+    }
+    .main-left, .main-right, .every-card-one-left, .every-card-one-right,
+    .every-card-two-left, .every-card-two-right,
+    .card-three-left, .card-three-center, .card-three-right {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+    #main-bottom h1, .main-left h1, #everything-heading h1, #last-heading h1, .schedule-adptes-heading h1 {
+        font-size: 2.5rem !important;
+    }
+    .btn-3 {
+        left: 0 !important;
+        bottom: 0 !important;
+        margin: 20px 0 !important;
+        position: static !important;
+    }
+    .schedule-button {
+        gap: 20px !important;
+        flex-wrap: wrap;
+    }
+    #footer {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 10px !important;
+        margin: 10px !important;
+    }
+    /* Inline style overrides for main-button and input containers */
+    .main-button,
+    .main-left > div[style*="display: flex"],
+    #main-bottom .main-button > div[style*="display: flex"],
+    #last-heading .main-button > div[style*="display: flex"] {
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        height: auto !important;
+        gap: 10px !important;
+    }
+    .main-button input,
+    .main-left input,
+    #main-bottom input,
+    #last-heading input {
+        width: 100% !important;
+        min-width: 0 !important;
+        font-size: 1rem !important;
+    }
+    .main-button button,
+    #main-bottom .main-button button,
+    #last-heading .main-button button {
+        width: 100% !important;
+        font-size: 1rem !important;
+        margin-left: 0 !important;
+        border-radius: 10px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    #header {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 10px !important;
+    }
+    .header-input input, .main-left input, .main-bottom input, #last-heading input {
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+    .main-left h1, #main-bottom h1, #everything-heading h1, #last-heading h1, .schedule-adptes-heading h1 {
+        font-size: 2rem !important;
+    }
+    .event-box-one, .card-two-one, .card-two-two, .card-two-three {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        width: 100% !important;
+    }
+    .schedule-adptes {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .schedule-adptes-left {
+        flex-direction: column !important;
+        padding: 10px !important;
+    }
+    .cards-heading img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .cards-one-top {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    #schedule {
+        margin: 20px 10px auto !important;
+        padding: 20px !important;
+    }
+    #logos {
+        height: 300px !important;
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+    /* Inline style overrides for main-button and input containers */
+    .main-button,
+    .main-left > div[style*="display: flex"],
+    #main-bottom .main-button > div[style*="display: flex"],
+    #last-heading .main-button > div[style*="display: flex"] {
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        height: auto !important;
+        gap: 10px !important;
+    }
+    .main-button input,
+    .main-left input,
+    #main-bottom input,
+    #last-heading input {
+        width: 100% !important;
+        min-width: 0 !important;
+        font-size: 1rem !important;
+    }
+    .main-button button,
+    #main-bottom .main-button button,
+    #last-heading .main-button button {
+        width: 100% !important;
+        font-size: 1rem !important;
+        margin-left: 0 !important;
+        border-radius: 10px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px !important;
+    }
+    .main-left h1, #main-bottom h1, #everything-heading h1, #last-heading h1, .schedule-adptes-heading h1 {
+        font-size: 1.2rem !important;
+    }
+    .footer-one, .footer-two {
+        padding: 5px !important;
+        font-size: 12px !important;
+    }
+    .img img {
+        width: 30px !important;
+    }
+    .cards-heading img {
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .cards-one-top {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+    #schedule {
+        margin: 10px 2px auto !important;
+        padding: 10px !important;
+    }
+    #logos {
+        height: 150px !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .btnn {
+        font-size: 12px !important;
+        padding: 8px 12px !important;
+    }
+    /* Inline style overrides for main-button and input containers */
+    .main-button,
+    .main-left > div[style*="display: flex"],
+    #main-bottom .main-button > div[style*="display: flex"],
+    #last-heading .main-button > div[style*="display: flex"] {
+        flex-direction: column !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        height: auto !important;
+        gap: 10px !important;
+    }
+    .main-button input,
+    .main-left input,
+    #main-bottom input,
+    #last-heading input {
+        width: 100% !important;
+        min-width: 0 !important;
+        font-size: 1rem !important;
+    }
+    .main-button button,
+    #main-bottom .main-button button,
+    #last-heading .main-button button {
+        width: 100% !important;
+        font-size: 1rem !important;
+        margin-left: 0 !important;
+        border-radius: 10px !important;
+    }
+}
+
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* cards */
+/* ...existing code... */
+
+/* Responsive styles for every-card-one section */
+@media (max-width: 900px) {
+  #every-card-one {
+    margin: 10px;
+    padding-top: 10px;
+  }
+  .every-card-one-top {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .every-card-one-left {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  .every-card-one-right {
+    flex-direction: column !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .card-right-left,
+  .card-right-right {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .card-right-left-header {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .event,
+  .booking {
+    font-size: 1rem !important;
+    padding: 4px 0 !important;
+    gap: 8px;
+  }
+  .event p,
+  .booking p {
+    font-size: 1rem !important;
+    padding-left: 8px !important;
+  }
+  .event-box-one {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    padding: 10px !important;
+  }
+  .event-box-one-left h4,
+  .event-box-one-left strong {
+    font-size: 1rem !important;
+  }
+  .event-box-one-right {
+    flex-direction: row !important;
+    gap: 10px !important;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .pics img {
+    width: 24px !important;
+    height: 24px !important;
+    margin-right: 2px;
+  }
+  .event-profile {
+    flex-direction: row !important;
+    gap: 10px !important;
+    align-items: center;
+    padding: 10px 0 !important;
+  }
+  .event-img img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .event-intro h4 {
+    font-size: 1rem !important;
+  }
+  .event-intro p {
+    font-size: 0.9rem !important;
+  }
+  .bottom {
+    gap: 10px !important;
+    flex-wrap: wrap;
+  }
+  .bottom-box {
+    font-size: 0.95rem !important;
+    padding: 3px 6px !important;
+  }
+  .card-right-right-heading {
+    flex-direction: column !important;
+    gap: 10px !important;
+    align-items: flex-start !important;
+  }
+  .event-heading h1 {
+    font-size: 1.2rem !important;
+  }
+  .event-heading p {
+    font-size: 1rem !important;
+  }
+  .event-button button {
+    width: 100% !important;
+    font-size: 1rem !important;
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+  }
+  .every-card-one-bottom {
+    flex-direction: column !important;
+    gap: 10px !important;
+    padding: 10px !important;
+  }
+  .every-card-one-bottom-left h1 {
+    font-size: 1.1rem !important;
+    text-align: left !important;
+  }
+  .every-card-one-bottom-right p {
+    font-size: 0.95rem !important;
+    text-align: left !important;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 500px) {
+  .number {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 1rem !important;
+  }
+  .event-img img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .event-intro h4,
+  .event-intro p {
+    font-size: 0.85rem !important;
+  }
+  .event-box-one-left h4,
+  .event-box-one-left strong {
+    font-size: 0.95rem !important;
+  }
+  .bottom-box {
+    font-size: 0.85rem !important;
+    padding: 2px 4px !important;
+  }
+  .event-button button {
+    font-size: 0.95rem !important;
+    padding: 8px !important;
+  }
+  .every-card-one-bottom-left h1,
+  .every-card-one-bottom-right p {
+    font-size: 0.95rem !important;
+  }
+}
+
+
+/* last cards  */
+/* ...existing code... */
+
+/* Responsive grid for #cards section */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+/* Each card column */
+.cards-one, .cards-two, .cards-three, .cards-four {
+  flex: 1 1 45%;
+  min-width: 320px;
+  max-width: 48%;
+  box-sizing: border-box;
+}
+
+/* On tablet: two columns */
+@media (max-width: 900px) {
+  #cards {
+    gap: 16px;
+  }
+  .cards-one, .cards-two, .cards-three, .cards-four {
+    flex: 1 1 48%;
+    max-width: 48%;
+    min-width: 260px;
+  }
+}
+
+/* On mobile: one column */
+@media (max-width: 600px) {
+  #cards {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .cards-one, .cards-two, .cards-three, .cards-four {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+}
